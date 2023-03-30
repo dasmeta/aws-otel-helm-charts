@@ -3,6 +3,24 @@ entries:
   adot-exporter-for-eks-on-ec2:
   - apiVersion: v2
     appVersion: 0.27.0
+    created: "2023-03-30T15:35:37.832431848Z"
+    description: A Helm chart for collecting metrics using ADOT Collector to send
+      to AWS monitoring services.
+    digest: e3242ef9ede57b21787bb10272434b7d24fa42e4399fa1bb5572a3add06e994c
+    home: https://github.com/dasmeta/aws-otel-helm-charts
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: viktorya@dasmeta.com
+      name: Viktorya Ghazaryan
+    name: adot-exporter-for-eks-on-ec2
+    sources:
+    - https://github.com/dasmeta/aws-otel-helm-charts
+    type: application
+    urls:
+    - https://github.com/dasmeta/aws-otel-helm-charts/releases/download/adot-exporter-for-eks-on-ec2-0.15.1/adot-exporter-for-eks-on-ec2-0.15.1.tgz
+    version: 0.15.1
+  - apiVersion: v2
+    appVersion: 0.27.0
     created: "2023-03-28T15:14:58.795855211Z"
     description: A Helm chart for collecting metrics using ADOT Collector to send
       to AWS monitoring services.
@@ -37,4 +55,4 @@ entries:
     urls:
     - https://github.com/dasmeta/aws-otel-helm-charts/releases/download/adot-exporter-for-eks-on-ec2-0.14.0/adot-exporter-for-eks-on-ec2-0.14.0.tgz
     version: 0.14.0
-generated: "2023-03-28T15:14:58.795863011Z"
+generated: "2023-03-30T15:35:37.832441548Z"
